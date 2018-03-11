@@ -1,21 +1,20 @@
-echo_kernel
+kona_kernel
 ===========
 
-``echo_kernel`` is a simple example of a Jupyter kernel. This repository
-complements the documentation on wrapper kernels here:
+``kona_kernel`` is a kernel built for running kona in iPython environment
 
-http://jupyter-client.readthedocs.io/en/latest/wrapperkernels.html
+Kona is an open source implementation for K programming language: 
+
+https://github.com/kevinlawler/kona
 
 Installation
 ------------
-To install ``echo_kernel`` from PyPI::
+To install ``kona_kernel`` with pip::
 
-    pip install echo_kernel
-    python -m echo_kernel.install
+    Download source code for kona_kernel
+    pip install -e kona_kernel
+    python -m kona_kernel.install
 
-Using the Echo kernel
+Using the Kona kernel
 ---------------------
-**Notebook**: The *New* menu in the notebook should show an option for an Echo notebook.
-
-**Console frontends**: To use it with the console frontends, add ``--kernel echo`` to
-their command line arguments.
+**Notebook**: The *New* menu in the notebook should show an option for a Kona notebook.
