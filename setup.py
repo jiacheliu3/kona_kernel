@@ -11,7 +11,7 @@ setup(
     long_description=readme,
     author='Jiacheng Liu',
     author_email='jiacheliu3@gmail.com',
-    url='https://github.com/jiacheliu3/k_kernel',
+    url='https://github.com/jiacheliu3/kona_kernel',
     install_requires=[
         'jupyter_client', 'IPython', 'ipykernel'
     ],
